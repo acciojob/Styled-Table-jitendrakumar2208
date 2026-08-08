@@ -1,1 +1,23 @@
 /* your code */
+table{
+	width:100px
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    background-color: #1f5d99;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+tbody tr:nth-child(odd){
+background-color: white;
+}
+
+tbody tr:nth-child(even){
+background-color: #eeeeee;
+}
+td{
+	font-size:14px;
+	padding:15px
+}
